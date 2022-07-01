@@ -1,0 +1,87 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
+html, body{
+    height:100%;
+    background-color: #8a005e;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+h2 {
+    font-size: clamp(2rem 3vw, 3rem);
+}
+
+h3 {
+    padding: 3% 0;
+}
+
+select {
+    margin: 3% 10% 3% 0;
+}
+
+input {
+    margin: 2% auto;
+    padding: 1.5% 3%;
+    width: 40vw;
+    background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.container {
+    height: 90vh;
+    width: 40vw;
+}
+
+.prev-cur-container {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.prev-cur-container > div {
+    flex: 1;
+    text-align: center;
+  }
+
+.prev-cur-container > div:first-of-type {
+    border-right: 1px solid #dedede;
+  }
+
+.history {
+    display: flex;
+}
+
+.history p{
+    margin: auto;
+}
+
+.inputOption {
+    display: flex;
+    margin: auto;
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.red {
+    color: rgb(238, 14, 14);
+}
+
+.green {
+    color: rgb(5, 168, 5);
+}
+
+.yellow {
+    color: rgb(236, 236, 9)
+}
